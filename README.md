@@ -1,3 +1,5 @@
+> **Sécurité — version 1.1.1 :** lire [l’audit de confidentialité](docs/AUDIT-SECURITE.md). Les anciens exécutables et le site hébergé ne reçoivent pas ces correctifs automatiquement. Recompiler et recetter avant usage sensible.
+
 # Facture Explorer — application Electron Windows
 
 Application de bureau locale issue de Facture Explorer. Facture interactive, catalogue BT, imports UBL/CII, lecture du XML embarqué Factur-X, repères automatiques multiples et export JSON sont intégrés. Aucune connexion au site hébergé n’est nécessaire.
@@ -84,3 +86,7 @@ Compilation portable effectuée sur Linux avec : `npm exec electron-builder -- -
 ## Hébergement web optionnel
 
 L’interface `dist` reste utilisable sur un serveur statique. La configuration Pages est conservée dans `docs/pages-workflow.yml` comme modèle inactif ; elle n’est pas exécutée par le workflow Windows. L’ancien dossier `..github` comportait un point de trop et n’était pas reconnu par GitHub Actions.
+
+## Mise à jour des dépendances PDF
+
+Après une mise à jour de pdfjs-dist : `npm run vendor:sync`, `npm run vendor:verify`, puis `npm test`. Committer les fichiers embarqués et le verrou ensemble.

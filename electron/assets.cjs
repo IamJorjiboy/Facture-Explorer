@@ -14,7 +14,5 @@ function resolveAsset(raw, root) {
 function isInternal(raw) {
   try { const u = new URL(raw); return u.protocol === 'facture:' && u.host === 'app' && !u.username && !u.password; } catch { return false; }
 }
-function externalAllowed(raw) {
-  try { const u = new URL(raw); return u.protocol === 'https:' && !u.username && !u.password && !u.port && ['docs.peppol.eu','www.impots.gouv.fr','fnfe-mpe.org'].includes(u.hostname); } catch { return false; }
-}
+const {externalAllowed}=require('./network-policy.cjs');
 module.exports = {resolveAsset, isInternal, externalAllowed};

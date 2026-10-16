@@ -2,3 +2,11 @@ node_modules/
 release/
 *.log
 .DS_Store
+
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+/factures/
+/exports/
