@@ -1,0 +1,3 @@
+const close=(a,b)=>a.page===b.page&&Math.abs(a.x-b.x)<.003&&Math.abs(a.y-b.y)<.004&&Math.abs(a.width-b.width)<.006&&Math.abs(a.height-b.height)<.006;
+export function placeMatches(results,existing=[]){const out=existing.filter(a=>a.origin!=='automatic');for(const r of results){for(const c of r.candidates||[]){const item={...c,record:r.record,origin:'automatic',association:r.shared||r.status==='ambiguous'?'possible':'unique'};if(!out.some(a=>a.record===item.record&&close(a,item)))out.push(item);}}return out;}
+export function groupPlacements(annotations,page){const groups=[];annotations.forEach((a,index)=>{if(a.page!==page)return;let g=groups.find(g=>close(g,a));if(!g){g={...a,entries:[]};groups.push(g);}g.entries.push({annotation:a,index});});return groups;}
