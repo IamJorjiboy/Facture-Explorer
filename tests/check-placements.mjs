@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {placeMatches,groupPlacements} from '../dist/placements.js';
+import {matchRecords} from '../dist/recognition.js';
+const spans=[{text:'100,00',x:.1,y:.1,width:.2,height:.02,page:1},{text:'100,00',x:.5,y:.5,width:.2,height:.02,page:2}];
+const records=[{id:131,value:'100',index:0},{id:131,value:'100',index:1}];
+const results=matchRecords(records,spans);const placed=placeMatches(results);
+assert.equal(placed.length,4);assert.equal(placed.filter(x=>x.record===0).length,2);assert.equal(placed.filter(x=>x.page===2).length,2);assert(placed.every(x=>x.origin==='automatic'&&x.association==='possible'&&!('confirmed' in x)));
+assert.equal(groupPlacements(placed,1).length,1);assert.equal(groupPlacements(placed,1)[0].entries.length,2);
+const manual={record:0,page:3,x:.1,y:.3,width:.1,height:.03,origin:'manual'};assert.equal(placeMatches(results,[...placed,manual]).length,5);assert.equal(placeMatches(results,placed).length,4);
+const distinct=matchRecords([{id:131,value:'100'},{id:131,value:'200'}],[...spans,{...spans[0],text:'200,00',y:.6}]);const d=placeMatches(distinct);assert.equal(d.filter(x=>x.record===0).length,2);assert.equal(d.filter(x=>x.record===1).length,1);
+const many=Array.from({length:45},(_,i)=>({...spans[0],page:i+1}));assert.equal(placeMatches(matchRecords([{id:131,value:'100'}],many)).length,45);
+console.log('PASS: multiple values and occurrences per BT, shared locations, all 45 pages, preservation of manual placements and idempotent reruns.');

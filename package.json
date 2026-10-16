@@ -1,0 +1,59 @@
+{
+  "name": "facture-explorer",
+  "productName": "Facture Explorer",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Explorateur pédagogique de factures UBL, CII et Factur-X",
+  "author": "Alan Georges",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.cjs && node tests/check-recognition.mjs && node tests/check-placements.mjs",
+    "build:win": "electron-builder --win nsis portable --x64 --publish never",
+    "release:win": "electron-builder --win nsis --x64 --publish always"
+  },
+  "devDependencies": {
+    "electron": "44.8.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "fr.factureexplorer.desktop",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "artifactName": "Facture-Explorer-Installation-${version}-${arch}.${ext}"
+    },
+    "portable": {
+      "artifactName": "Facture-Explorer-Portable-${version}-${arch}.${ext}"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "IamJorjiboy",
+        "repo": "Facture-Explorer",
+        "private": true,
+        "releaseType": "release"
+      }
+    ]
+  },
+  "dependencies": {
+    "electron-updater": "6.8.9"
+  }
+}
