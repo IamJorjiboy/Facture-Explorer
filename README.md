@@ -1,6 +1,6 @@
 > **Sécurité — version 1.1.1 :** lire [l’audit de confidentialité](docs/AUDIT-SECURITE.md). Les anciens exécutables et le site hébergé ne reçoivent pas ces correctifs automatiquement. Recompiler et recetter avant usage sensible.
 
-# Yooz - Facture Explorer — application Electron Windows
+# Facture Explorer — application Electron Windows
 
 Application de bureau locale issue de Facture Explorer. Facture interactive, catalogue BT, imports UBL/CII, lecture du XML embarqué Factur-X, repères automatiques multiples et export JSON sont intégrés. Aucune connexion au site hébergé n’est nécessaire.
 

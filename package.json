@@ -1,7 +1,7 @@
 {
   "name": "facture-explorer",
-  "productName": "Yooz - Facture Explorer",
-  "version": "1.1.2",
+  "productName": "Facture Explorer",
+  "version": "1.1.1",
   "private": true,
   "description": "Explorateur pédagogique de factures UBL, CII et Factur-X",
   "author": "Alan Georges",
@@ -42,10 +42,10 @@
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "artifactName": "Yooz-Facture-Explorer-Installation-${version}-${arch}.${ext}"
+      "artifactName": "Facture-Explorer-Installation-${version}-${arch}.${ext}"
     },
     "portable": {
-      "artifactName": "Yooz-Facture-Explorer-Portable-${version}-${arch}.${ext}"
+      "artifactName": "Facture-Explorer-Portable-${version}-${arch}.${ext}"
     },
     "publish": [
       {
@@ -63,8 +63,7 @@
       "onlyLoadAppFromAsar": true,
       "enableEmbeddedAsarIntegrityValidation": true,
       "grantFileProtocolExtraPrivileges": false
-    },
-    "executableName": "Facture Explorer"
+    }
   },
   "dependencies": {
     "electron-updater": "6.8.9"

@@ -14,7 +14,7 @@ function openReference(url) {
 async function createWindow() {
   win = new BrowserWindow({
     width:1440, height:960, minWidth:900, minHeight:650,
-    title:'Yooz - Facture Explorer', backgroundColor:'#f5f6fa', show:false,
+    title:'Facture Explorer', backgroundColor:'#f5f6fa', show:false,
     webPreferences:{nodeIntegration:false, contextIsolation:true, sandbox:true, webSecurity:true, devTools:!app.isPackaged, session:documentSession, spellcheck:false}
   });
   win.once('ready-to-show', () => win.show());
@@ -28,7 +28,7 @@ async function createWindow() {
     ]},
     {label:'Édition',submenu:[{role:'undo',label:'Annuler'},{role:'redo',label:'Rétablir'},{type:'separator'},{role:'cut',label:'Couper'},{role:'copy',label:'Copier'},{role:'paste',label:'Coller'},{role:'selectAll',label:'Tout sélectionner'}]},
     {label:'Affichage',submenu:[{role:'resetZoom',label:'Taille réelle'},{role:'zoomIn',label:'Agrandir'},{role:'zoomOut',label:'Réduire'},{role:'togglefullscreen',label:'Plein écran'}]},
-    {label:'Aide',submenu:[{label:'Rechercher une mise à jour',click:()=>updates?.check(true)},{label:'À propos',click:()=>dialog.showMessageBox(win,{type:'info',title:'Yooz - Facture Explorer',message:'Yooz - Facture Explorer '+app.getVersion(),detail:'Factures traitées localement. Repérage BT pédagogique et heuristique. Les PDF scannés nécessitent un OCR non inclus dans cette version.'})}]}
+    {label:'Aide',submenu:[{label:'Rechercher une mise à jour',click:()=>updates?.check(true)},{label:'À propos',click:()=>dialog.showMessageBox(win,{type:'info',title:'Facture Explorer',message:'Facture Explorer '+app.getVersion(),detail:'Factures traitées localement. Repérage BT pédagogique et heuristique. Les PDF scannés nécessitent un OCR non inclus dans cette version.'})}]}
   ]));
   await win.loadURL('facture://app/index.html');
 }
