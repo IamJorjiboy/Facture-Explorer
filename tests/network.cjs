@@ -12,8 +12,14 @@ test('Updater only downloads via HTTPS from release infrastructure',()=>{
  for(const url of ['https://evil.test','https://api.github.com/repos/other/project/releases','http://github.com/IamJorjiboy/Facture-Explorer/releases/download/v1/app.exe','file:///secret'])assert.equal(updateRequestAllowed(url),false);
  assert.equal(updateRequestAllowed('https://api.github.com/repos/IamJorjiboy/Facture-Explorer/releases','POST'),false);
 });
-test('Private GitHub token is removed before CDN requests',()=>{
+test('Authorization is removed on every update request',()=>{
  const headers={Authorization:'test-token',Cookie:'test-cookie',Referer:'facture://app/','User-Agent':'test'};
  assert.deepEqual(updateHeaders('https://release-assets.githubusercontent.com/asset',headers),{'User-Agent':'test'});
- assert.equal(updateHeaders('https://api.github.com/repos/IamJorjiboy/Facture-Explorer/releases',headers).Authorization,'test-token');
+ assert.equal(updateHeaders('https://api.github.com/repos/IamJorjiboy/Facture-Explorer/releases',headers).Authorization,undefined);
+});
+
+test('Public feed and latest metadata are allowed only for this repository',()=>{
+ for(const suffix of ['.atom','/latest','/download/v1.1.4/latest.yml'])assert.ok(updateRequestAllowed('https://github.com/IamJorjiboy/Facture-Explorer/releases'+suffix));
+ for(const suffix of ['.atom/extra','/latest/extra','/tag/v1.1.4'])assert.equal(updateRequestAllowed('https://github.com/IamJorjiboy/Facture-Explorer/releases'+suffix),false);
+ assert.equal(updateRequestAllowed('https://github.com/other/repo/releases.atom'),false);
 });

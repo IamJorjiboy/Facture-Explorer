@@ -39,7 +39,7 @@ Les résultats seront dans `release` :
 - `Facture-Explorer-Installation-1.1.0-x64.exe` : assistant d’installation pour l’utilisateur, choix du dossier, raccourci bureau et désinstallation Windows.
 - `Facture-Explorer-Portable-1.1.0-x64.exe` : exécutable portable sans installation.
 
-Cible : Windows 10/11 64 bits x64. Aucun Node.js ni serveur n’est requis chez les utilisateurs des exécutables. Les binaires ne sont pas signés numériquement : Windows peut afficher un avertissement d’éditeur inconnu. Pour une diffusion professionnelle, prévoir la signature avec un certificat détenu par l’éditeur. La version installée 1.1.0 intègre les mises à jour automatiques depuis les Releases GitHub privées ; voir `docs/MISES-A-JOUR.md`.
+Cible : Windows 10/11 64 bits x64. Aucun Node.js ni serveur n’est requis chez les utilisateurs des exécutables. Les binaires ne sont pas signés numériquement : Windows peut afficher un avertissement d’éditeur inconnu. Pour une diffusion professionnelle, prévoir la signature avec un certificat détenu par l’éditeur. La version installée 1.1.0 intègre les mises à jour automatiques depuis les Releases GitHub publiques sans jeton ; voir `docs/MISES-A-JOUR.md`.
 
 ## Construire avec GitHub sans outils sur le PC
 
@@ -90,3 +90,7 @@ L’interface `dist` reste utilisable sur un serveur statique. La configuration 
 ## Mise à jour des dépendances PDF
 
 Après une mise à jour de pdfjs-dist : `npm run vendor:sync`, `npm run vendor:verify`, puis `npm test`. Committer les fichiers embarqués et le verrou ensemble.
+
+## Version 1.1.4 — dépôt public
+
+Installer une première fois la version Installation 1.1.4 depuis les Releases pour activer les mises à jour sans authentification. Recherche automatique au démarrage puis toutes les six heures. Voir docs/MISES-A-JOUR.md pour le fonctionnement et le processus de publication actuel via release-request.json.

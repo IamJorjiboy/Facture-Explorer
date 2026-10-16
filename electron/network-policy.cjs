@@ -10,15 +10,14 @@ function updateRequestAllowed(raw,method='GET') {
     const u=new URL(raw);
     if(u.protocol!=='https:'||u.username||u.password||u.port)return false;
     if(u.hostname==='api.github.com')return /^\/repos\/IamJorjiboy\/Facture-Explorer\/releases(?:\/|$)/.test(u.pathname);
-    if(u.hostname==='github.com')return u.pathname.startsWith('/IamJorjiboy/Facture-Explorer/releases/download/');
+    if(u.hostname==='github.com')return ['/IamJorjiboy/Facture-Explorer/releases.atom','/IamJorjiboy/Facture-Explorer/releases/latest'].includes(u.pathname) || u.pathname.startsWith('/IamJorjiboy/Facture-Explorer/releases/download/');
     return ['release-assets.githubusercontent.com','objects.githubusercontent.com'].includes(u.hostname);
   } catch {return false;}
 }
 function updateHeaders(raw,headers) {
-  const api=new URL(raw).hostname==='api.github.com';
   return Object.fromEntries(Object.entries(headers).filter(([key])=>{
     const k=key.toLowerCase();
-    return k!=='cookie' && k!=='referer' && (api || k!=='authorization');
+    return k!=='cookie' && k!=='referer' && k!=='authorization';
   }));
 }
 function restrictUpdater(session) {

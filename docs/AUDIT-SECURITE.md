@@ -69,3 +69,7 @@ Audit npm après modifications : **0 vulnérabilité connue signalée**, tous ni
 - https://www.electronjs.org/docs/latest/tutorial/security/
 - https://www.electronjs.org/docs/latest/tutorial/fuses
 - https://www.electron.build/docs/features/auto-update/
+
+## Évolution 1.1.4 — dépôt public
+
+Les mentions de mise à jour privée ci-dessus décrivent l’audit 1.1.1. Depuis 1.1.4 : aucun jeton requis ou envoyé ; Authorization est retiré sur tous les domaines. Le flux releases.atom et releases/latest du seul dépôt sont autorisés en complément des téléchargements. La session des factures reste isolée. La recette Windows complète reste à effectuer.

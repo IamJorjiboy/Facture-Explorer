@@ -1,8 +1,8 @@
-# Facture Explorer 1.1.3
+# Facture Explorer 1.1.4
 
-- Nouveau logo facture et loupe, dans des tons rose, bleu et corail inspirés de Yooz.
-- Logo intégré à l’interface, la fenêtre et aux exécutables Windows.
-- Nom de l’application conservé : Facture Explorer (corrige le renommage de la version 1.1.2).
-- Traitement local des factures et paramètres de sécurité conservés.
+- Mises à jour automatiques depuis le dépôt GitHub public, sans compte ni jeton.
+- Recherche au démarrage puis toutes les six heures ; téléchargement automatique et installation à la fermeture ou au redémarrage choisi.
+- Filtrage réseau adapté au flux public ; suppression des en-têtes d’authentification.
+- Nom Facture Explorer et logo conservés.
 
-Installation : télécharger Facture-Explorer-Installation-1.1.3-x64.exe. La version portable est également disponible. Exécutables non signés.
+Installer cette version une première fois avec Facture-Explorer-Installation-1.1.4-x64.exe pour activer le fonctionnement sans jeton. La version portable ne se met pas à jour automatiquement. Exécutables non signés.

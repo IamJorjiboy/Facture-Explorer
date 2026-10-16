@@ -1,37 +1,22 @@
-# Mises à jour automatiques — version installée Windows
+# Mises à jour automatiques — Windows installé
 
-## Fonctionnement
+Depuis la version 1.1.4, les mises à jour utilisent le dépôt public IamJorjiboy/Facture-Explorer. Aucun compte GitHub ni jeton personnel requis. Les variables GH_TOKEN et GITHUB_TOKEN ne sont pas utilisées par le fournisseur public. Les en-têtes Authorization, Cookie et Referer sont supprimés des requêtes de mise à jour.
 
-La version installée NSIS vérifie les Releases stables de `IamJorjiboy/Facture-Explorer` 15 secondes après démarrage, puis toutes les 6 heures. Elle télécharge automatiquement une version supérieure et propose de redémarrer. En choisissant Plus tard, l’installation se fait à la fermeture normale. Exporter les annotations avant de fermer. Aucun redémarrage n’est forcé. Une panne réseau n’empêche pas l’utilisation de l’application.
+Installer une première fois Facture-Explorer-Installation-1.1.4-x64.exe : les anciennes versions bloquent la recherche sans jeton. Ensuite, la recherche s’effectue 15 secondes après le démarrage et toutes les six heures. Une version stable supérieure est téléchargée automatiquement. Le dialogue propose de redémarrer ou de reporter ; en cas de report, elle est installée à la fermeture normale. Exporter ses repères avant de fermer. Aucun redémarrage n’est forcé.
 
-Menu Aide → Rechercher une mise à jour pour lancer une vérification manuelle. La version portable et le lancement de développement ne s’auto-installent pas. Il faut installer une première fois la version 1.1.0 : la version portable 1.0.0 déjà livrée ne peut pas acquérir ce mécanisme seule.
+Aide → Rechercher une mise à jour permet une recherche manuelle. La version portable ne s’auto-installe pas. Une panne réseau n’empêche pas de travailler ; la prochaine recherche réessaie.
 
-## Accès au dépôt privé
+## Publication
 
-Créer dans votre propre compte GitHub un jeton personnel à permissions fines, limité au dépôt Facture-Explorer et à **Contents: Read-only**. Vous devez vous-même avoir accès au dépôt. Dans Windows, ouvrir Modifier les variables d’environnement pour votre compte et ajouter une variable utilisateur `GH_TOKEN` contenant ce jeton. Fermer et relancer l’application. Le jeton n’est jamais ajouté aux fichiers sources ni à l’exécutable. Ne pas l’envoyer par message, le publier dans une capture ou partager un même jeton avec les clients. Révoquer un jeton compromis ; renouveler un jeton expiré.
+1. Augmenter la version dans package.json et package-lock.json.
+2. Mettre à jour docs/RELEASE-NOTES.md et exécuter npm test.
+3. Mettre la même version dans release-request.json et pousser sur main.
+4. Le workflow release.yml vérifie les dépendances et les tests, compile puis publie l’installateur, son blockmap, latest.yml et SHA256SUMS.txt. Ne pas remplacer les fichiers d’une version déjà publiée. Les préversions et rétrogradations sont ignorées.
 
-Cette configuration conserve la confidentialité du dépôt mais nécessite une configuration par poste/utilisateur. Pour une distribution sans jeton aux clients, prévoir un dépôt PUBLIC distinct réservé aux exécutables et modifier la destination publish avant compilation. Un exécutable public contient le code applicatif embarqué : le dépôt source privé ne rend pas ce code secret. Aucun changement de visibilité n’est effectué par ce projet.
+Le jeton GitHub Actions sert uniquement à publier, il n’est pas embarqué. Les factures restent traitées dans la session locale isolée ; le module de mise à jour ne reçoit aucun contenu de facture.
 
-## Publier une version
+## Validation
 
-1. Modifier le numéro de version de `package.json` (par exemple 1.1.1).
-2. Exécuter `npm install --package-lock-only`, puis `npm test`.
-3. Committer et pousser les changements.
-4. Créer et pousser le tag correspondant, par exemple :
+Tests automatisés : éligibilité sans jeton, filtrage du flux public et des téléchargements, suppression des en-têtes sensibles, dialogues et vérifications programmées. Une recette Windows entre deux versions installées reste nécessaire pour vérifier le cycle complet téléchargement/installation/redémarrage sur un poste réel. Les exécutables ne sont pas signés numériquement.
 
-```sh
-git tag v1.1.1
-git push origin v1.1.1
-```
-
-Le workflow Windows vérifie la correspondance du tag, compile l’installateur et publie dans une Release privée : l’installateur `.exe`, son `.blockmap` et `latest.yml`. Ces fichiers doivent rester ensemble et ne pas être modifiés après publication. Les versions beta/prerelease et les rétrogradations sont ignorées. Le GITHUB_TOKEN de GitHub Actions sert uniquement à publier ; aucun jeton n’est inscrit dans la configuration embarquée.
-
-Le lancement manuel du workflow compile sans publier de Release. Le workflow ne rend pas le dépôt public. Pour la première version, utiliser le tag v1.1.0 après recette.
-
-## Validation requise avant diffusion
-
-Installer 1.1.0 sur Windows, configurer le jeton local, puis publier une version supérieure et vérifier détection, téléchargement, report du redémarrage, installation et conservation du lancement. Tester aussi hors ligne et avec jeton absent/expiré. Les tests unitaires ne constituent pas une preuve de fonctionnement de bout en bout de l’installation automatique.
-
-Le projet ne dispose pas de certificat de signature. L’avertissement Windows et la politique de sécurité du poste peuvent bloquer l’installation. Prévoir une signature de code avant diffusion professionnelle.
-
-Référence : https://www.electron.build/docs/features/auto-update/
+Référence : https://www.electron.build/v26/docs/features/auto-update/

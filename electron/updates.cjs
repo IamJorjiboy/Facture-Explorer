@@ -1,7 +1,6 @@
-function eligibility({packaged,platform,portable,token}) {
+function eligibility({packaged,platform,portable}) {
   if (!packaged || platform !== 'win32') return 'Les mises à jour sont disponibles dans la version Windows installée.';
   if (portable) return 'Cette version est portable. Installez la version Installation pour bénéficier des mises à jour automatiques.';
-  if (!token) return 'Le dépôt GitHub est privé. Configurez GH_TOKEN sur ce poste avec un jeton personnel ayant accès en lecture au dépôt IamJorjiboy/Facture-Explorer, puis relancez l’application. Ne partagez pas ce jeton.';
   return null;
 }
 function setupUpdates({app,dialog,autoUpdater,getWindow,env=process.env}) {
@@ -10,18 +9,18 @@ function setupUpdates({app,dialog,autoUpdater,getWindow,env=process.env}) {
     const window = getWindow();
     return window && !window.isDestroyed() ? dialog.showMessageBox(window,options) : dialog.showMessageBox(options);
   };
-  const blocked = () => eligibility({packaged:app.isPackaged,platform:process.platform,portable:!!env.PORTABLE_EXECUTABLE_FILE,token:env.GH_TOKEN||env.GITHUB_TOKEN});
+  const blocked = () => eligibility({packaged:app.isPackaged,platform:process.platform,portable:!!env.PORTABLE_EXECUTABLE_FILE});
   autoUpdater.autoDownload=true;
   autoUpdater.autoInstallOnAppQuit=true;
   autoUpdater.allowPrerelease=false;
   autoUpdater.allowDowngrade=false;
-  // Never log request headers or tokens.
+  // Public release checks need no credentials; never log request headers.
   autoUpdater.logger=null;
   autoUpdater.on('update-not-available',()=>{
     if(manual)void show({type:'info',message:'Vous disposez de la dernière version publiée.'});
   });
   autoUpdater.on('error',()=>{
-    if(manual)void show({type:'warning',message:'Mise à jour indisponible.',detail:'Vérifiez la connexion, l’accès au dépôt privé et la présence d’une version publiée avec latest.yml et son installateur.'});
+    if(manual)void show({type:'warning',message:'Mise à jour indisponible.',detail:'Vérifiez la connexion, la présence d’une version publiée avec latest.yml et son installateur.'});
     busy=false;manual=false;
   });
   autoUpdater.on('update-downloaded',async()=>{
