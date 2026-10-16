@@ -1,6 +1,6 @@
 const path = require('node:path');
-const allowed = new Set(['.html', '.css', '.js', '.mjs', '.json', '.xml']);
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.xml':'application/xml'};
+const allowed = new Set(['.html', '.css', '.js', '.mjs', '.json', '.xml', '.png']);
+const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.xml':'application/xml','.png':'image/png'};
 function resolveAsset(raw, root) {
   const url = new URL(raw);
   if (url.protocol !== 'facture:' || url.hostname !== 'app' || url.port || url.username || url.password) throw Error('Origin');
