@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+# Preserve the exact upstream bytes checked by vendor:verify.
+dist/vendor/* -text
