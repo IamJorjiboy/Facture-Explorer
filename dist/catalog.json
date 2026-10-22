@@ -1,1 +1,1314 @@
-[{"id": 1, "label": "Numéro identifiant la facture", "status": "O", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 2, "label": "Date d’émission", "status": "O", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 3, "label": "Code du type de document, facture ou avoir notamment", "status": "O", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 5, "label": "Devise de la facture", "status": "O", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 6, "label": "Devise de comptabilisation TVA distincte de BT-5", "status": "C • BT-111", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 7, "label": "Date d’exigibilité de la TVA", "status": "C", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 8, "label": "Code de l’événement d’exigibilité TVA", "status": "C", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 9, "label": "Date limite de paiement", "status": "C • BT-20 / 115", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 10, "label": "Référence interne fournie par l’acheteur", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 11, "label": "Référence du projet", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 12, "label": "Référence du contrat", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 13, "label": "Numéro de commande d’achat de l’acheteur", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 14, "label": "Numéro de commande de vente du vendeur", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 15, "label": "Référence de l’avis de réception", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 16, "label": "Référence de l’avis d’expédition", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 17, "label": "Référence d’appel d’offres ou de lot", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 18, "label": "Identifiant de l’objet facturé, abonnement ou compteur", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 19, "label": "Référence d’imputation comptable de l’acheteur", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 20, "label": "Conditions de paiement en texte", "status": "C • BT-9 / 115", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 21, "label": "Code du sujet d’une note", "status": "F", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 22, "label": "Texte de la note de facture", "status": "G • BG-1", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 23, "label": "Identifiant du processus métier", "status": "F dans le socle", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 24, "label": "Identifiant de la spécification ou du profil appliqué", "status": "O", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 25, "label": "Numéro de la facture antérieure référencée", "status": "G • BG-3", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 26, "label": "Date de cette facture antérieure", "status": "F / C contexte", "group": "En-tête et BG-1 à BG-3", "category": "Identification et références", "notes": "BT-23 ne doit pas être alimenté avec une valeur de profil Peppol par défaut pour une facture française relevant d’un autre profil. BT-25 permet le rapprochement avec le document antérieur ; vérifier les exigences propres aux avoirs et rectifications. [S5–S7]"}, {"id": 27, "label": "Nom officiel du vendeur", "status": "O", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 28, "label": "Nom commercial", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 29, "label": "Identifiant du vendeur dans un système d’identification", "status": "C", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 30, "label": "Identifiant d’enregistrement légal", "status": "C", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 31, "label": "Numéro de TVA du vendeur", "status": "C • fiscalité", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 32, "label": "Autre identifiant fiscal", "status": "C • fiscalité", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 33, "label": "Informations juridiques complémentaires", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 34, "label": "Adresse électronique pour factures et réponses", "status": "F dans le socle", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 35, "label": "Première ligne d’adresse postale", "status": "F sous réserve*", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 36, "label": "Deuxième ligne d’adresse", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 37, "label": "Ville", "status": "F sous réserve*", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 38, "label": "Code postal", "status": "F sous réserve*", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 39, "label": "Subdivision territoriale, région ou État", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 40, "label": "Code pays", "status": "O", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 41, "label": "Nom du contact ou du service", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 42, "label": "Téléphone du contact", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 43, "label": "E-mail du contact", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 162, "label": "Troisième ligne d’adresse du vendeur", "status": "F", "group": "BG-4 à BG-6", "category": "Vendeur", "notes": "* BG-5 est obligatoire. Les composants doivent former une adresse suffisante au regard du contexte légal. Au moins un identifiant parmi BT-29, BT-30 ou BT-31 est requis par la règle d’identification du vendeur ; les règles fiscales et françaises peuvent imposer davantage. BT-34 et BT-43 ont des usages distincts. [S5–S7]"}, {"id": 44, "label": "Nom officiel de l’acheteur", "status": "O", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 45, "label": "Nom commercial", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 46, "label": "Identifiant de l’acheteur dans un système d’identification", "status": "F / C profil", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 47, "label": "Identifiant d’enregistrement légal", "status": "F / C profil", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 48, "label": "Numéro de TVA de l’acheteur", "status": "C • fiscalité", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 49, "label": "Adresse électronique de destination de la facture", "status": "F dans le socle", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 50, "label": "Première ligne d’adresse postale", "status": "F sous réserve*", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 51, "label": "Deuxième ligne d’adresse", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 52, "label": "Ville", "status": "F sous réserve*", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 53, "label": "Code postal", "status": "F sous réserve*", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 54, "label": "Subdivision territoriale", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 55, "label": "Code pays", "status": "O", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 56, "label": "Nom du contact ou du service", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 57, "label": "Téléphone du contact", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 58, "label": "E-mail du contact", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 163, "label": "Troisième ligne d’adresse de l’acheteur", "status": "F", "group": "BG-7 à BG-9", "category": "Acheteur", "notes": "* BG-8 est obligatoire ; fournir une adresse suffisante. Ne pas substituer BT-58 à BT-49. Un identifiant d’entreprise, une adresse de facturation et un numéro de TVA doivent être qualifiés selon leur fonction et leur schéma. Le statut F du socle ne présume pas de leur caractère facultatif en France. [S5–S7]"}, {"id": 59, "label": "Nom du bénéficiaire du paiement distinct du vendeur", "status": "G • BG-10", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 60, "label": "Identifiant du bénéficiaire", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 61, "label": "Identifiant d’enregistrement légal du bénéficiaire", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 62, "label": "Nom du représentant fiscal du vendeur", "status": "G • BG-11", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 63, "label": "Numéro de TVA du représentant fiscal", "status": "G • BG-11", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 64, "label": "Première ligne de son adresse", "status": "F sous réserve*", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 65, "label": "Deuxième ligne d’adresse", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 66, "label": "Ville", "status": "F sous réserve*", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 67, "label": "Code postal", "status": "F sous réserve*", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 68, "label": "Subdivision territoriale", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 69, "label": "Code pays du représentant fiscal", "status": "G • BG-12", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 70, "label": "Nom de la personne ou organisation livrée", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 71, "label": "Identifiant du lieu de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 72, "label": "Date effective de livraison ou fin de prestation", "status": "F / C contexte", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 73, "label": "Début de la période facturée", "status": "C • BG-14", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 74, "label": "Fin de la période facturée", "status": "C • BG-14", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 75, "label": "Première ligne de l’adresse de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 76, "label": "Deuxième ligne d’adresse de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 77, "label": "Ville de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 78, "label": "Code postal de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 79, "label": "Subdivision territoriale de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 80, "label": "Code pays de livraison", "status": "G • BG-15", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 164, "label": "Troisième ligne d’adresse du représentant fiscal", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 165, "label": "Troisième ligne d’adresse de livraison", "status": "F", "group": "BG-10 à BG-15", "category": "Tiers et livraison", "notes": "* L’adresse du représentant fiscal est requise lorsqu’il est déclaré. Une période comporte un début et/ou une fin. BG-10 identifie celui qui reçoit le paiement, pas un tiers qui paie à la place de l’acheteur. [S5–S7]"}, {"id": 81, "label": "Code du moyen de paiement", "status": "G • BG-16", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 82, "label": "Libellé du moyen de paiement", "status": "F", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 83, "label": "Référence de règlement pour le rapprochement", "status": "F", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 84, "label": "Compte à créditer, notamment IBAN", "status": "G • BG-17", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 85, "label": "Nom du compte à créditer", "status": "F", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 86, "label": "Identifiant bancaire, notamment BIC", "status": "F", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 87, "label": "Numéro tronqué de la carte de paiement", "status": "G • BG-18", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 88, "label": "Nom du titulaire de la carte", "status": "F", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 89, "label": "Référence du mandat de prélèvement", "status": "F / C profil", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 90, "label": "Identifiant du créancier pour prélèvement", "status": "F / C profil", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 91, "label": "Identifiant du compte à débiter", "status": "F / C profil", "group": "BG-16 à BG-19", "category": "Moyens de paiement", "notes": "BT-84 désigne le compte qui reçoit un virement ; BT-91 désigne le compte prélevé. Ne jamais intégrer le numéro complet d’une carte dans BT-87. Les règles spécifiques au moyen de paiement et au profil peuvent renforcer les exigences du groupe. [S6]"}, {"id": 92, "label": "Montant HT de la remise globale", "status": "G • BG-20", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 93, "label": "Base de calcul de la remise", "status": "C • pourcentage", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 94, "label": "Pourcentage de remise", "status": "C • calcul", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 95, "label": "Catégorie TVA de la remise", "status": "G • BG-20", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 96, "label": "Taux de TVA de la remise", "status": "C • catégorie", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 97, "label": "Motif de remise en texte", "status": "C • 97 ou 98", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 98, "label": "Code du motif de remise", "status": "C • 97 ou 98", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 99, "label": "Montant HT du frais global", "status": "G • BG-21", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 100, "label": "Base de calcul du frais", "status": "C • pourcentage", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 101, "label": "Pourcentage du frais", "status": "C • calcul", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 102, "label": "Catégorie TVA du frais", "status": "G • BG-21", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 103, "label": "Taux de TVA du frais", "status": "C • catégorie", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 104, "label": "Motif du frais en texte", "status": "C • 104 ou 105", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 105, "label": "Code du motif du frais", "status": "C • 104 ou 105", "group": "BG-20 et BG-21", "category": "Remises et frais globaux", "notes": "Chaque remise ou frais doit avoir un motif en texte ou en code, éventuellement les deux. S’ils sont tous deux présents, ils doivent être cohérents. Une remise peut être saisie comme montant fixe ; une base et un pourcentage ne sont donc pas systématiquement nécessaires. Les catégories TVA doivent alimenter le récapitulatif BG-23. [S6–S7]"}, {"id": 106, "label": "Somme des montants nets HT des lignes", "status": "O", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 107, "label": "Total des remises globales", "status": "C • remises", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 108, "label": "Total des frais globaux", "status": "C • frais", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 109, "label": "Total de facture hors TVA", "status": "O", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 110, "label": "Total TVA dans la devise de facture", "status": "C • règles TVA", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 111, "label": "Total TVA dans la devise de comptabilisation TVA", "status": "C • BT-6", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 112, "label": "Total TVA comprise", "status": "O", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 113, "label": "Montant déjà payé", "status": "F", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 114, "label": "Ajustement d’arrondi du montant à payer", "status": "F", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 115, "label": "Montant restant à payer", "status": "O", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 116, "label": "Base HT de la catégorie et du taux concernés", "status": "G • BG-23", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 117, "label": "Montant de TVA de cette ventilation", "status": "G • BG-23", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 118, "label": "Code de catégorie TVA", "status": "G • BG-23", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 119, "label": "Taux de TVA de la ventilation", "status": "C • catégorie", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 120, "label": "Motif d’exonération ou non-application en texte", "status": "C • fiscalité", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 121, "label": "Code de ce motif", "status": "C • fiscalité", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 122, "label": "Identifiant du document justificatif", "status": "G • BG-24", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 123, "label": "Description du justificatif", "status": "F", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 124, "label": "Adresse externe permettant d’accéder au document", "status": "F", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 125, "label": "Document joint incorporé dans la facture structurée", "status": "F", "group": "BG-22 à BG-24", "category": "Totaux TVA et justificatifs", "notes": "BT-110 est habituellement présent ; appliquer les contraintes exactes du profil et de la catégorie fiscale au lieu de le traiter comme librement facultatif. BG-23 est requis même sans TVA à payer. BT-125 nécessite les attributs prévus par la syntaxe, notamment le type MIME et le nom de fichier. [S6–S7]"}, {"id": 126, "label": "Identifiant unique de la ligne dans la facture", "status": "G • BG-25", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 127, "label": "Note libre sur la ligne", "status": "F", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 128, "label": "Identifiant de l’objet facturé sur la ligne", "status": "F", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 129, "label": "Quantité facturée", "status": "G • BG-25", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 130, "label": "Code d’unité de la quantité facturée", "status": "G • BG-25", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 131, "label": "Montant net HT de la ligne après ses ajustements", "status": "G • BG-25", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 132, "label": "Référence de la ligne de commande d’achat", "status": "F", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 133, "label": "Référence comptable propre à la ligne", "status": "F", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 134, "label": "Début de la période de la ligne", "status": "C • BG-26", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 135, "label": "Fin de la période de la ligne", "status": "C • BG-26", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 136, "label": "Montant HT de la remise de ligne", "status": "G • BG-27", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 137, "label": "Base de calcul de la remise de ligne", "status": "C • calcul", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 138, "label": "Pourcentage de remise de ligne", "status": "C • calcul", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 139, "label": "Motif de remise de ligne en texte", "status": "C • 139 ou 140", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 140, "label": "Code du motif de remise de ligne", "status": "C • 139 ou 140", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 141, "label": "Montant HT du frais de ligne", "status": "G • BG-28", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 142, "label": "Base de calcul du frais de ligne", "status": "C • calcul", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 143, "label": "Pourcentage du frais de ligne", "status": "C • calcul", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 144, "label": "Motif du frais de ligne en texte", "status": "C • 144 ou 145", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 145, "label": "Code du motif du frais de ligne", "status": "C • 144 ou 145", "group": "BG-25 à BG-28", "category": "Lignes périodes et ajustements", "notes": "Une facture comporte au moins une ligne. Une référence de commande globale BT-13 et une référence de ligne BT-132 servent à des rapprochements complémentaires. Les ajustements BG-27 et BG-28 sont inclus dans BT-131 ; ne pas les ajouter ou déduire à nouveau dans les totaux globaux. [S6–S7]"}, {"id": 146, "label": "Prix net HT après remise sur prix", "status": "G • BG-29", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 147, "label": "Montant de remise sur le prix", "status": "F / C", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 148, "label": "Prix brut HT avant remise sur prix", "status": "F / C", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 149, "label": "Quantité de référence à laquelle le prix s’applique", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 150, "label": "Code d’unité de la quantité de référence du prix", "status": "F / C", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 151, "label": "Code de catégorie TVA de la ligne", "status": "G • BG-30", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 152, "label": "Taux de TVA de la ligne", "status": "C • catégorie", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 153, "label": "Désignation courte du bien ou service", "status": "G • BG-31", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 154, "label": "Description détaillée", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 155, "label": "Référence article du vendeur", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 156, "label": "Référence article de l’acheteur", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 157, "label": "Identifiant standardisé de l’article, par exemple GTIN", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 158, "label": "Code de classification de l’article", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 159, "label": "Pays d’origine du bien", "status": "F", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 160, "label": "Nom d’une caractéristique, couleur ou taille notamment", "status": "G • BG-32", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}, {"id": 161, "label": "Valeur de cette caractéristique", "status": "G • BG-32", "group": "BG-29 à BG-32", "category": "Prix TVA et articles", "notes": "Prix brut signifie ici avant remise, et non TTC. Les remises sur prix BT-147 sont distinctes des remises de ligne BT-136. BT-157 doit être accompagné du schéma d’identification approprié ; BT-158 de la liste de classification et, si nécessaire, de sa version. Les BT-162 à BT-165 figurent dans les tableaux d’adresses précédents. [S6–S7]"}]
+[
+  {
+    "id": 1,
+    "label": "Numéro identifiant la facture",
+    "status": "O",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Numéro attribué par le vendeur pour retrouver cette facture, par exemple FAC-2026-1042. Il identifie le document, pas la commande ni une ligne."
+  },
+  {
+    "id": 2,
+    "label": "Date d’émission",
+    "status": "O",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Date à laquelle la facture est émise. Elle peut différer de la date de livraison (BT-72) et de l’échéance de paiement (BT-9)."
+  },
+  {
+    "id": 3,
+    "label": "Code du type de document, facture ou avoir notamment",
+    "status": "O",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Code qui indique la nature du document : par exemple 380 pour une facture commerciale ou 381 pour un avoir. Les valeurs admises dépendent du profil et de la syntaxe."
+  },
+  {
+    "id": 5,
+    "label": "Devise de la facture",
+    "status": "O",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Devise utilisée pour les montants de la facture, par exemple EUR. Le total de TVA en devise comptable (BT-111) constitue un cas distinct."
+  },
+  {
+    "id": 6,
+    "label": "Devise de comptabilisation TVA distincte de BT-5",
+    "status": "C • BT-111",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Devise dans laquelle la TVA doit être comptabilisée lorsqu’elle diffère de BT-5. Elle accompagne le total de TVA exprimé dans cette devise (BT-111)."
+  },
+  {
+    "id": 7,
+    "label": "Date d’exigibilité de la TVA",
+    "status": "C",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Date à laquelle la TVA devient exigible, lorsque cette date est connue. Elle décrit un événement fiscal ; ce n’est pas l’échéance de règlement."
+  },
+  {
+    "id": 8,
+    "label": "Code de l’événement d’exigibilité TVA",
+    "status": "C",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Code indiquant l’événement qui rend la TVA exigible, plutôt qu’une date précise. BT-7 et BT-8 sont mutuellement exclusifs dans le socle : renseigner la date ou le code selon le cas."
+  },
+  {
+    "id": 9,
+    "label": "Date limite de paiement",
+    "status": "C • BT-20 / 115",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Date à laquelle le règlement est attendu. Si le net à payer BT-115 est positif, le socle demande une échéance BT-9 ou des conditions de paiement BT-20."
+  },
+  {
+    "id": 10,
+    "label": "Référence interne fournie par l’acheteur",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Repère donné par l’acheteur pour orienter la facture vers le bon service ou interlocuteur. Exemple : SERVICE-ACHATS ; la référence de commande se trouve en BT-13."
+  },
+  {
+    "id": 11,
+    "label": "Référence du projet",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Identifiant du projet auquel se rattache la facture. Il permet, par exemple, de regrouper les dépenses d’un chantier."
+  },
+  {
+    "id": 12,
+    "label": "Référence du contrat",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Référence du contrat qui encadre les biens ou services facturés. Exemple : CONTRAT-MAINTENANCE-2026."
+  },
+  {
+    "id": 13,
+    "label": "Numéro de commande d’achat de l’acheteur",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Numéro de commande attribué par l’acheteur. Il permet de rapprocher la facture de son engagement d’achat ; BT-132 précise éventuellement une ligne de cette commande."
+  },
+  {
+    "id": 14,
+    "label": "Numéro de commande de vente du vendeur",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Numéro de commande attribué par le vendeur dans son propre système. Il peut être différent du numéro de commande d’achat BT-13."
+  },
+  {
+    "id": 15,
+    "label": "Référence de l’avis de réception",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Référence du document qui constate la réception des biens ou services. Elle aide à rapprocher réception et facturation."
+  },
+  {
+    "id": 16,
+    "label": "Référence de l’avis d’expédition",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Référence de l’avis d’expédition correspondant à la facture. Elle renvoie au document de départ des marchandises, distinct de l’avis de réception BT-15."
+  },
+  {
+    "id": 17,
+    "label": "Référence d’appel d’offres ou de lot",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Référence de l’appel d’offres ou du lot auquel la facture se rapporte. Elle rattache le document à la procédure d’achat concernée."
+  },
+  {
+    "id": 18,
+    "label": "Identifiant de l’objet facturé, abonnement ou compteur",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Identifiant de ce qui est facturé à l’échelle du document : abonnement, compteur ou véhicule, par exemple. Ce n’est pas nécessairement une référence article."
+  },
+  {
+    "id": 19,
+    "label": "Référence d’imputation comptable de l’acheteur",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Référence fournie pour imputer la facture dans les comptes de l’acheteur, par exemple un centre de coût. BT-133 porte l’imputation propre à une ligne."
+  },
+  {
+    "id": 20,
+    "label": "Conditions de paiement en texte",
+    "status": "C • BT-9 / 115",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Conditions de règlement exprimées en texte, par exemple « paiement à 30 jours ». Si BT-115 est positif, BT-20 ou la date BT-9 doit être présent."
+  },
+  {
+    "id": 21,
+    "label": "Code du sujet d’une note",
+    "status": "F",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Code qui classe le sujet d’une note de facture. Il qualifie le texte BT-22 et n’est pas lui-même le contenu de la note."
+  },
+  {
+    "id": 22,
+    "label": "Texte de la note de facture",
+    "status": "G • BG-1",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Commentaire libre qui concerne l’ensemble de la facture. Une précision propre à un article ou une prestation appartient plutôt à la note de ligne BT-127."
+  },
+  {
+    "id": 23,
+    "label": "Identifiant du processus métier",
+    "status": "F dans le socle",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Identifiant du processus métier dans lequel la facture est échangée. Utiliser la valeur du processus applicable ; ne pas copier automatiquement un identifiant Peppol dans un autre profil."
+  },
+  {
+    "id": 24,
+    "label": "Identifiant de la spécification ou du profil appliqué",
+    "status": "O",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Identifiant de la spécification qui fixe les règles suivies par la facture. Il renseigne le profil de conformité déclaré, mais sa présence ne prouve pas que le fichier est valide."
+  },
+  {
+    "id": 25,
+    "label": "Numéro de la facture antérieure référencée",
+    "status": "G • BG-3",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Numéro d’une facture antérieure à laquelle ce document se rapporte, notamment pour une correction ou un avoir. Plusieurs références peuvent exister."
+  },
+  {
+    "id": 26,
+    "label": "Date de cette facture antérieure",
+    "status": "F / C contexte",
+    "group": "En-tête et BG-1 à BG-3",
+    "category": "Identification et références",
+    "notes": "Date d’émission de la facture antérieure identifiée en BT-25. Il s’agit de la date de l’ancien document, pas de celle du document courant."
+  },
+  {
+    "id": 27,
+    "label": "Nom officiel du vendeur",
+    "status": "O",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Dénomination officielle de l’entreprise ou nom de la personne qui vend. Le nom commercial éventuel est renseigné séparément en BT-28."
+  },
+  {
+    "id": 28,
+    "label": "Nom commercial",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Nom commercial sous lequel le vendeur exerce son activité. Il complète le nom officiel BT-27, par exemple pour une enseigne."
+  },
+  {
+    "id": 29,
+    "label": "Identifiant du vendeur dans un système d’identification",
+    "status": "C",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Identifiant du vendeur dans un système donné, par exemple un code fournisseur chez l’acheteur. Le schéma associé précise le système d’identification lorsqu’il est utilisé."
+  },
+  {
+    "id": 30,
+    "label": "Identifiant d’enregistrement légal",
+    "status": "C",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Identifiant du vendeur dans un registre légal. Son schéma précise le registre ou le type d’identifiant ; ne pas le confondre avec le numéro de TVA BT-31."
+  },
+  {
+    "id": 31,
+    "label": "Numéro de TVA du vendeur",
+    "status": "C • fiscalité",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Numéro d’identification à la TVA du vendeur. Il sert à son identification fiscale et se distingue de l’identifiant légal BT-30."
+  },
+  {
+    "id": 32,
+    "label": "Autre identifiant fiscal",
+    "status": "C • fiscalité",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Identifiant fiscal du vendeur autre que son numéro de TVA. Il ne doit pas servir à stocker arbitrairement un code fournisseur."
+  },
+  {
+    "id": 33,
+    "label": "Informations juridiques complémentaires",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Mentions juridiques complémentaires sur le vendeur, par exemple sa forme juridique ou son capital. Ce texte complète son identité légale."
+  },
+  {
+    "id": 34,
+    "label": "Adresse électronique pour factures et réponses",
+    "status": "F dans le socle",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Adresse électronique structurée du vendeur pour les échanges de facturation, notamment les réponses. Le schéma en précise la nature ; ce n’est pas nécessairement un e-mail de contact BT-43."
+  },
+  {
+    "id": 35,
+    "label": "Première ligne d’adresse postale",
+    "status": "F sous réserve*",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Première ligne de l’adresse postale du vendeur, généralement le numéro et le nom de voie."
+  },
+  {
+    "id": 36,
+    "label": "Deuxième ligne d’adresse",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Complément d’adresse du vendeur, par exemple un bâtiment ou un étage. Il appartient à la même adresse que la première ligne."
+  },
+  {
+    "id": 37,
+    "label": "Ville",
+    "status": "F sous réserve*",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Nom de la ville du vendeur. Il est séparé du code postal et du code pays dans la facture structurée."
+  },
+  {
+    "id": 38,
+    "label": "Code postal",
+    "status": "F sous réserve*",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Code postal du vendeur. Conserver les zéros initiaux éventuels : il s’agit d’un code, pas d’un montant."
+  },
+  {
+    "id": 39,
+    "label": "Subdivision territoriale, région ou État",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Subdivision territoriale du vendeur, par exemple une région ou un État. Elle complète la ville lorsque le système d’adressage le nécessite."
+  },
+  {
+    "id": 40,
+    "label": "Code pays",
+    "status": "O",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Code du pays du vendeur, par exemple FR. Utiliser le code pays attendu, et non son nom libre."
+  },
+  {
+    "id": 41,
+    "label": "Nom du contact ou du service",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Nom de la personne ou du service à contacter chez le vendeur pour la facture. Exemple : Service facturation."
+  },
+  {
+    "id": 42,
+    "label": "Téléphone du contact",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Numéro de téléphone du contact du vendeur indiqué en BT-41. Il facilite les échanges au sujet de la facture."
+  },
+  {
+    "id": 43,
+    "label": "E-mail du contact",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Adresse e-mail du contact chez le vendeur. Elle sert à la correspondance et se distingue de l’adresse électronique structurée BT-34."
+  },
+  {
+    "id": 162,
+    "label": "Troisième ligne d’adresse du vendeur",
+    "status": "F",
+    "group": "BG-4 à BG-6",
+    "category": "Vendeur",
+    "notes": "Troisième ligne de l’adresse du vendeur. Elle permet un complément supplémentaire sans surcharger les deux premières lignes."
+  },
+  {
+    "id": 44,
+    "label": "Nom officiel de l’acheteur",
+    "status": "O",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Dénomination officielle de l’entreprise ou nom de la personne qui achète. L’enseigne ou le nom commercial peut être précisé en BT-45."
+  },
+  {
+    "id": 45,
+    "label": "Nom commercial",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Nom commercial de l’acheteur, lorsqu’il diffère de son identité officielle BT-44. Exemple : nom d’enseigne d’un magasin."
+  },
+  {
+    "id": 46,
+    "label": "Identifiant de l’acheteur dans un système d’identification",
+    "status": "F / C profil",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Identifiant de l’acheteur dans un système donné, par exemple son code client chez le vendeur. Le schéma associé précise la nature de cet identifiant."
+  },
+  {
+    "id": 47,
+    "label": "Identifiant d’enregistrement légal",
+    "status": "F / C profil",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Identifiant d’enregistrement de l’acheteur dans un registre légal. Il est distinct de son code client BT-46 et de son numéro de TVA BT-48."
+  },
+  {
+    "id": 48,
+    "label": "Numéro de TVA de l’acheteur",
+    "status": "C • fiscalité",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Numéro d’identification à la TVA de l’acheteur. Sa nécessité dépend notamment du traitement fiscal de l’opération."
+  },
+  {
+    "id": 49,
+    "label": "Adresse électronique de destination de la facture",
+    "status": "F dans le socle",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Adresse électronique structurée à laquelle la facture est destinée. Elle doit être interprétée avec son schéma ; l’e-mail d’un interlocuteur est renseigné en BT-58."
+  },
+  {
+    "id": 50,
+    "label": "Première ligne d’adresse postale",
+    "status": "F sous réserve*",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Première ligne de l’adresse postale de l’acheteur, généralement le numéro et le nom de voie."
+  },
+  {
+    "id": 51,
+    "label": "Deuxième ligne d’adresse",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Complément d’adresse de l’acheteur, par exemple un bâtiment ou un étage. Il appartient à la même adresse que la première ligne."
+  },
+  {
+    "id": 52,
+    "label": "Ville",
+    "status": "F sous réserve*",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Nom de la ville de l’acheteur. Il est séparé du code postal et du code pays dans la facture structurée."
+  },
+  {
+    "id": 53,
+    "label": "Code postal",
+    "status": "F sous réserve*",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Code postal de l’acheteur. Conserver les zéros initiaux éventuels : il s’agit d’un code, pas d’un montant."
+  },
+  {
+    "id": 54,
+    "label": "Subdivision territoriale",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Subdivision territoriale de l’acheteur, par exemple une région ou un État. Elle complète la ville lorsque le système d’adressage le nécessite."
+  },
+  {
+    "id": 55,
+    "label": "Code pays",
+    "status": "O",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Code du pays de l’acheteur, par exemple FR. Utiliser le code pays attendu, et non son nom libre."
+  },
+  {
+    "id": 56,
+    "label": "Nom du contact ou du service",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Nom de la personne ou du service à contacter chez l’acheteur. Exemple : Comptabilité fournisseurs."
+  },
+  {
+    "id": 57,
+    "label": "Téléphone du contact",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Numéro de téléphone du contact de l’acheteur renseigné en BT-56. Ce champ ne désigne pas un identifiant d’entreprise."
+  },
+  {
+    "id": 58,
+    "label": "E-mail du contact",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Adresse e-mail du contact chez l’acheteur. Elle est distincte de l’adresse structurée de réception de facture BT-49."
+  },
+  {
+    "id": 163,
+    "label": "Troisième ligne d’adresse de l’acheteur",
+    "status": "F",
+    "group": "BG-7 à BG-9",
+    "category": "Acheteur",
+    "notes": "Troisième ligne de l’adresse de l’acheteur. Elle permet un complément supplémentaire sans surcharger les deux premières lignes."
+  },
+  {
+    "id": 59,
+    "label": "Nom du bénéficiaire du paiement distinct du vendeur",
+    "status": "G • BG-10",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Nom de la personne ou de l’organisme qui reçoit le paiement lorsqu’il diffère du vendeur, par exemple un factor."
+  },
+  {
+    "id": 60,
+    "label": "Identifiant du bénéficiaire",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Identifiant du bénéficiaire du paiement dans un système d’identification. Ce n’est pas son compte bancaire, qui relève de BT-84."
+  },
+  {
+    "id": 61,
+    "label": "Identifiant d’enregistrement légal du bénéficiaire",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Identifiant du bénéficiaire du paiement dans un registre légal. Il complète l’identification de ce tiers distinct du vendeur."
+  },
+  {
+    "id": 62,
+    "label": "Nom du représentant fiscal du vendeur",
+    "status": "G • BG-11",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Nom du représentant fiscal du vendeur, lorsqu’un tel représentant intervient. Il ne désigne ni l’acheteur ni le bénéficiaire du règlement."
+  },
+  {
+    "id": 63,
+    "label": "Numéro de TVA du représentant fiscal",
+    "status": "G • BG-11",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Numéro de TVA du représentant fiscal identifié en BT-62. Il appartient au représentant, et non au vendeur lui-même."
+  },
+  {
+    "id": 64,
+    "label": "Première ligne de son adresse",
+    "status": "F sous réserve*",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Première ligne de l’adresse postale du représentant fiscal, généralement le numéro et le nom de voie."
+  },
+  {
+    "id": 65,
+    "label": "Deuxième ligne d’adresse",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Complément d’adresse du représentant fiscal, par exemple un bâtiment ou un étage. Il appartient à la même adresse que la première ligne."
+  },
+  {
+    "id": 66,
+    "label": "Ville",
+    "status": "F sous réserve*",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Nom de la ville du représentant fiscal. Il est séparé du code postal et du code pays dans la facture structurée."
+  },
+  {
+    "id": 67,
+    "label": "Code postal",
+    "status": "F sous réserve*",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Code postal du représentant fiscal. Conserver les zéros initiaux éventuels : il s’agit d’un code, pas d’un montant."
+  },
+  {
+    "id": 68,
+    "label": "Subdivision territoriale",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Subdivision territoriale du représentant fiscal, par exemple une région ou un État. Elle complète la ville lorsque le système d’adressage le nécessite."
+  },
+  {
+    "id": 69,
+    "label": "Code pays du représentant fiscal",
+    "status": "G • BG-12",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Code du pays du représentant fiscal, par exemple FR. Utiliser le code pays attendu, et non son nom libre."
+  },
+  {
+    "id": 70,
+    "label": "Nom de la personne ou organisation livrée",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Nom de la personne ou de l’organisation qui reçoit les biens ou services. Le destinataire livré peut différer de l’acheteur facturé."
+  },
+  {
+    "id": 71,
+    "label": "Identifiant du lieu de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Code qui identifie le lieu de livraison, par exemple un site ou un entrepôt. Le nom du destinataire et son adresse sont des informations séparées."
+  },
+  {
+    "id": 72,
+    "label": "Date effective de livraison ou fin de prestation",
+    "status": "F / C contexte",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Date réelle de livraison des biens ou d’achèvement de la prestation. Elle ne correspond pas nécessairement à la date d’émission BT-2."
+  },
+  {
+    "id": 73,
+    "label": "Début de la période facturée",
+    "status": "C • BG-14",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Début de la période couverte par la facture entière. Exemple : premier jour du mois pour un abonnement mensuel."
+  },
+  {
+    "id": 74,
+    "label": "Fin de la période facturée",
+    "status": "C • BG-14",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Fin de la période couverte par la facture entière. Si BT-73 est présent, la fin ne doit pas précéder le début."
+  },
+  {
+    "id": 75,
+    "label": "Première ligne de l’adresse de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Première ligne de l’adresse postale du lieu de livraison, généralement le numéro et le nom de voie."
+  },
+  {
+    "id": 76,
+    "label": "Deuxième ligne d’adresse de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Complément d’adresse du lieu de livraison, par exemple un bâtiment ou un étage. Il appartient à la même adresse que la première ligne."
+  },
+  {
+    "id": 77,
+    "label": "Ville de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Nom de la ville du lieu de livraison. Il est séparé du code postal et du code pays dans la facture structurée."
+  },
+  {
+    "id": 78,
+    "label": "Code postal de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Code postal du lieu de livraison. Conserver les zéros initiaux éventuels : il s’agit d’un code, pas d’un montant."
+  },
+  {
+    "id": 79,
+    "label": "Subdivision territoriale de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Subdivision territoriale du lieu de livraison, par exemple une région ou un État. Elle complète la ville lorsque le système d’adressage le nécessite."
+  },
+  {
+    "id": 80,
+    "label": "Code pays de livraison",
+    "status": "G • BG-15",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Code du pays du lieu de livraison, par exemple FR. Utiliser le code pays attendu, et non son nom libre."
+  },
+  {
+    "id": 164,
+    "label": "Troisième ligne d’adresse du représentant fiscal",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Troisième ligne de l’adresse du représentant fiscal. Elle permet un complément supplémentaire sans surcharger les deux premières lignes."
+  },
+  {
+    "id": 165,
+    "label": "Troisième ligne d’adresse de livraison",
+    "status": "F",
+    "group": "BG-10 à BG-15",
+    "category": "Tiers et livraison",
+    "notes": "Troisième ligne de l’adresse du lieu de livraison. Elle permet un complément supplémentaire sans surcharger les deux premières lignes."
+  },
+  {
+    "id": 81,
+    "label": "Code du moyen de paiement",
+    "status": "G • BG-16",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Code du moyen de règlement, par exemple 58 pour un virement SEPA. Il détermine les informations de paiement à associer."
+  },
+  {
+    "id": 82,
+    "label": "Libellé du moyen de paiement",
+    "status": "F",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Description en texte du moyen de règlement codé en BT-81. Exemple : « virement bancaire »."
+  },
+  {
+    "id": 83,
+    "label": "Référence de règlement pour le rapprochement",
+    "status": "F",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Référence à reprendre lors du règlement pour rapprocher le paiement de la facture. Elle peut reprendre le numéro de facture ou une référence dédiée."
+  },
+  {
+    "id": 84,
+    "label": "Compte à créditer, notamment IBAN",
+    "status": "G • BG-17",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Identifiant du compte bancaire à créditer pour un virement, par exemple un IBAN. Le compte à débiter lors d’un prélèvement relève de BT-91."
+  },
+  {
+    "id": 85,
+    "label": "Nom du compte à créditer",
+    "status": "F",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Nom du compte à créditer identifié en BT-84. Il aide à reconnaître le titulaire ou l’intitulé du compte."
+  },
+  {
+    "id": 86,
+    "label": "Identifiant bancaire, notamment BIC",
+    "status": "F",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Identifiant de l’établissement qui tient le compte à créditer, par exemple un BIC. Il identifie la banque, pas le compte lui-même."
+  },
+  {
+    "id": 87,
+    "label": "Numéro tronqué de la carte de paiement",
+    "status": "G • BG-18",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Partie autorisée du numéro de la carte utilisée pour le paiement. Le numéro complet de carte ne doit pas être renseigné dans la facture."
+  },
+  {
+    "id": 88,
+    "label": "Nom du titulaire de la carte",
+    "status": "F",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Nom du titulaire de la carte de paiement. Il accompagne les informations de carte et ne désigne pas nécessairement l’acheteur légal."
+  },
+  {
+    "id": 89,
+    "label": "Référence du mandat de prélèvement",
+    "status": "F / C profil",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Référence du mandat autorisant le prélèvement, par exemple la référence unique de mandat. Elle identifie l’autorisation de débit."
+  },
+  {
+    "id": 90,
+    "label": "Identifiant du créancier pour prélèvement",
+    "status": "F / C profil",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Identifiant du créancier qui émet le prélèvement, par exemple l’ICS en SEPA. Ce n’est ni le mandat BT-89 ni un IBAN."
+  },
+  {
+    "id": 91,
+    "label": "Identifiant du compte à débiter",
+    "status": "F / C profil",
+    "group": "BG-16 à BG-19",
+    "category": "Moyens de paiement",
+    "notes": "Identifiant du compte bancaire à débiter lors du prélèvement. Il désigne le compte du débiteur, à distinguer du compte à créditer BT-84."
+  },
+  {
+    "id": 92,
+    "label": "Montant HT de la remise globale",
+    "status": "G • BG-20",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Montant HT d’une remise appliquée à l’ensemble de la facture. Les remises déjà intégrées dans les lignes ne sont pas à déduire une seconde fois ici."
+  },
+  {
+    "id": 93,
+    "label": "Base de calcul de la remise",
+    "status": "C • pourcentage",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Montant servant de base à une remise globale. Lorsque le calcul est exprimé avec un pourcentage : BT-92 = BT-93 × BT-94 / 100."
+  },
+  {
+    "id": 94,
+    "label": "Pourcentage de remise",
+    "status": "C • calcul",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Taux de la remise globale, exprimé en pourcentage : saisir 5 pour 5 %. Il s’applique à la base BT-93."
+  },
+  {
+    "id": 95,
+    "label": "Catégorie TVA de la remise",
+    "status": "G • BG-20",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Catégorie de TVA applicable à la remise globale. Elle permet d’affecter la remise à la bonne ventilation de TVA."
+  },
+  {
+    "id": 96,
+    "label": "Taux de TVA de la remise",
+    "status": "C • catégorie",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Taux de TVA associé à la remise globale, selon sa catégorie BT-95. Ce taux est distinct du pourcentage commercial de remise BT-94."
+  },
+  {
+    "id": 97,
+    "label": "Motif de remise en texte",
+    "status": "C • 97 ou 98",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Explication de la remise globale en texte, par exemple « remise commerciale ». Elle doit être cohérente avec le code BT-98 s’il est fourni."
+  },
+  {
+    "id": 98,
+    "label": "Code du motif de remise",
+    "status": "C • 97 ou 98",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Code décrivant la raison de la remise globale. Utiliser la liste de codes applicable ; ce code ne porte pas le taux de remise."
+  },
+  {
+    "id": 99,
+    "label": "Montant HT du frais global",
+    "status": "G • BG-21",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Montant HT d’un frais ajouté à l’ensemble de la facture, par exemple des frais de port. Il alimente le total des frais globaux BT-108."
+  },
+  {
+    "id": 100,
+    "label": "Base de calcul du frais",
+    "status": "C • pourcentage",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Montant servant de base au calcul d’un frais global. Avec un taux renseigné : BT-99 = BT-100 × BT-101 / 100."
+  },
+  {
+    "id": 101,
+    "label": "Pourcentage du frais",
+    "status": "C • calcul",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Pourcentage appliqué à la base BT-100 pour calculer le frais global. Ce n’est pas son taux de TVA BT-103."
+  },
+  {
+    "id": 102,
+    "label": "Catégorie TVA du frais",
+    "status": "G • BG-21",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Catégorie de TVA du frais global. Elle rattache ce frais à la ventilation fiscale correspondante."
+  },
+  {
+    "id": 103,
+    "label": "Taux de TVA du frais",
+    "status": "C • catégorie",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Taux de TVA du frais global, selon sa catégorie BT-102. Exemple : 20 pour un taux de TVA de 20 %."
+  },
+  {
+    "id": 104,
+    "label": "Motif du frais en texte",
+    "status": "C • 104 ou 105",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Motif du frais global en texte, par exemple « transport ». Il décrit la nature du supplément facturé."
+  },
+  {
+    "id": 105,
+    "label": "Code du motif du frais",
+    "status": "C • 104 ou 105",
+    "group": "BG-20 et BG-21",
+    "category": "Remises et frais globaux",
+    "notes": "Code du motif du frais global. S’il accompagne le texte BT-104, les deux doivent décrire le même motif."
+  },
+  {
+    "id": 106,
+    "label": "Somme des montants nets HT des lignes",
+    "status": "O",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Somme des montants nets HT des lignes BT-131. Les remises et frais propres aux lignes sont donc déjà pris en compte."
+  },
+  {
+    "id": 107,
+    "label": "Total des remises globales",
+    "status": "C • remises",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Somme des remises globales BT-92. Ce total exclut les remises de ligne et les remises sur prix, déjà intégrées aux lignes."
+  },
+  {
+    "id": 108,
+    "label": "Total des frais globaux",
+    "status": "C • frais",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Somme des frais globaux BT-99. Les frais propres à une ligne sont déjà inclus dans le montant de cette ligne."
+  },
+  {
+    "id": 109,
+    "label": "Total de facture hors TVA",
+    "status": "O",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Total hors TVA : BT-106 − BT-107 + BT-108. Pour ce calcul, les remises ou frais globaux absents sont pris à zéro."
+  },
+  {
+    "id": 110,
+    "label": "Total TVA dans la devise de facture",
+    "status": "C • règles TVA",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Total de la TVA dans la devise BT-5 : somme des montants de TVA BT-117 des ventilations. Il s’ajoute au total HT pour obtenir le TTC."
+  },
+  {
+    "id": 111,
+    "label": "Total TVA dans la devise de comptabilisation TVA",
+    "status": "C • BT-6",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Total de TVA exprimé dans la devise comptable BT-6. Il ne doit pas être ajouté à BT-110 : c’est la TVA exprimée dans une autre devise."
+  },
+  {
+    "id": 112,
+    "label": "Total TVA comprise",
+    "status": "O",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Total TTC de la facture : BT-109 + BT-110. Il peut différer du solde à régler si des paiements ont déjà été reçus."
+  },
+  {
+    "id": 113,
+    "label": "Montant déjà payé",
+    "status": "F",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Montant déjà réglé et imputé sur cette facture, par exemple un acompte. Il est déduit du TTC pour déterminer le solde."
+  },
+  {
+    "id": 114,
+    "label": "Ajustement d’arrondi du montant à payer",
+    "status": "F",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Ajustement d’arrondi appliqué au montant à payer. Il intervient dans BT-115, et ne modifie pas le total HT ni la TVA."
+  },
+  {
+    "id": 115,
+    "label": "Montant restant à payer",
+    "status": "O",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Solde à régler : BT-112 − BT-113 + BT-114. Un montant déjà payé réduit donc ce solde sans réduire le total TTC."
+  },
+  {
+    "id": 116,
+    "label": "Base HT de la catégorie et du taux concernés",
+    "status": "G • BG-23",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Base HT correspondant à une catégorie et, lorsqu’il s’applique, à un taux de TVA. Elle regroupe les lignes concernées, moins leurs remises globales et plus leurs frais globaux."
+  },
+  {
+    "id": 117,
+    "label": "Montant de TVA de cette ventilation",
+    "status": "G • BG-23",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Montant de TVA de cette ventilation. Pour une catégorie taxée, il résulte de BT-116 × BT-119 / 100 avec l’arrondi applicable."
+  },
+  {
+    "id": 118,
+    "label": "Code de catégorie TVA",
+    "status": "G • BG-23",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Code qui qualifie le traitement TVA de la ventilation, par exemple taxation standard, exonération ou autoliquidation. Un taux nul ne suffit pas à distinguer ces situations."
+  },
+  {
+    "id": 119,
+    "label": "Taux de TVA de la ventilation",
+    "status": "C • catégorie",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Pourcentage de TVA de la ventilation, quand la catégorie BT-118 le prévoit. Il sert au calcul du montant BT-117."
+  },
+  {
+    "id": 120,
+    "label": "Motif d’exonération ou non-application en texte",
+    "status": "C • fiscalité",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Texte expliquant l’exonération ou la non-application de TVA pour cette ventilation. Le motif doit correspondre à la situation fiscale réelle."
+  },
+  {
+    "id": 121,
+    "label": "Code de ce motif",
+    "status": "C • fiscalité",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Code du motif d’exonération ou de non-application de TVA. Il complète ou remplace le texte BT-120 selon les règles applicables."
+  },
+  {
+    "id": 122,
+    "label": "Identifiant du document justificatif",
+    "status": "G • BG-24",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Référence d’un justificatif qui accompagne ou étaye la facture. Exemple : numéro d’un relevé d’heures."
+  },
+  {
+    "id": 123,
+    "label": "Description du justificatif",
+    "status": "F",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Description du justificatif identifié en BT-122. Elle indique à quoi sert le document, par exemple « détail des interventions »."
+  },
+  {
+    "id": 124,
+    "label": "Adresse externe permettant d’accéder au document",
+    "status": "F",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Adresse externe où le justificatif peut être consulté. Le document n’est alors pas nécessairement inclus dans le fichier de facture."
+  },
+  {
+    "id": 125,
+    "label": "Document joint incorporé dans la facture structurée",
+    "status": "F",
+    "group": "BG-22 à BG-24",
+    "category": "Totaux TVA et justificatifs",
+    "notes": "Contenu du justificatif incorporé dans la facture structurée. Le nom du fichier et son type MIME permettent d’identifier la pièce jointe."
+  },
+  {
+    "id": 126,
+    "label": "Identifiant unique de la ligne dans la facture",
+    "status": "G • BG-25",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Identifiant d’une ligne, unique au sein de la facture. Il sert à distinguer les lignes, même si elles contiennent le même article."
+  },
+  {
+    "id": 127,
+    "label": "Note libre sur la ligne",
+    "status": "F",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Commentaire libre limité à cette ligne de facture. Une note portant sur toute la facture relève de BT-22."
+  },
+  {
+    "id": 128,
+    "label": "Identifiant de l’objet facturé sur la ligne",
+    "status": "F",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Identifiant de l’objet facturé sur cette ligne, par exemple un numéro de compteur. Il se distingue des références article BT-155 à BT-157."
+  },
+  {
+    "id": 129,
+    "label": "Quantité facturée",
+    "status": "G • BG-25",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Nombre d’unités facturées sur la ligne. Son sens dépend de l’unité BT-130 : pièces, heures, kilogrammes, etc."
+  },
+  {
+    "id": 130,
+    "label": "Code d’unité de la quantité facturée",
+    "status": "G • BG-25",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Code de l’unité utilisée pour la quantité BT-129. Exemple : HUR pour des heures ; le libellé affiché ne remplace pas le code structuré."
+  },
+  {
+    "id": 131,
+    "label": "Montant net HT de la ligne après ses ajustements",
+    "status": "G • BG-25",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Montant HT de la ligne : quantité × prix net / quantité de référence, puis ajout des frais de ligne et déduction des remises de ligne, avec les arrondis applicables."
+  },
+  {
+    "id": 132,
+    "label": "Référence de la ligne de commande d’achat",
+    "status": "F",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Identifiant de la ligne de commande d’achat à laquelle cette ligne de facture se rapporte. Il complète le numéro de commande BT-13."
+  },
+  {
+    "id": 133,
+    "label": "Référence comptable propre à la ligne",
+    "status": "F",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Référence d’imputation comptable donnée par l’acheteur pour cette ligne. Elle permet, par exemple, de répartir plusieurs lignes entre centres de coût."
+  },
+  {
+    "id": 134,
+    "label": "Début de la période de la ligne",
+    "status": "C • BG-26",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Date de début de la période facturée sur cette ligne. Elle permet de préciser la période d’une prestation particulière."
+  },
+  {
+    "id": 135,
+    "label": "Fin de la période de la ligne",
+    "status": "C • BG-26",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Date de fin de la période facturée sur cette ligne. Elle ne doit pas précéder son début BT-134."
+  },
+  {
+    "id": 136,
+    "label": "Montant HT de la remise de ligne",
+    "status": "G • BG-27",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Montant HT de la remise appliquée à cette ligne. Il réduit BT-131 et ne doit pas être déduit à nouveau en remise globale."
+  },
+  {
+    "id": 137,
+    "label": "Base de calcul de la remise de ligne",
+    "status": "C • calcul",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Base de calcul d’une remise de ligne. Si un pourcentage est utilisé : BT-136 = BT-137 × BT-138 / 100."
+  },
+  {
+    "id": 138,
+    "label": "Pourcentage de remise de ligne",
+    "status": "C • calcul",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Pourcentage de remise appliqué à la base de ligne BT-137. Saisir 10 pour une remise de 10 %."
+  },
+  {
+    "id": 139,
+    "label": "Motif de remise de ligne en texte",
+    "status": "C • 139 ou 140",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Motif de la remise de ligne en texte. Exemple : « remise sur quantité »."
+  },
+  {
+    "id": 140,
+    "label": "Code du motif de remise de ligne",
+    "status": "C • 139 ou 140",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Code du motif de la remise de ligne. Il doit être cohérent avec BT-139 lorsque le motif est aussi décrit en texte."
+  },
+  {
+    "id": 141,
+    "label": "Montant HT du frais de ligne",
+    "status": "G • BG-28",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Montant HT du frais ajouté à cette ligne. Il entre dans BT-131 et n’est pas un frais global BT-99."
+  },
+  {
+    "id": 142,
+    "label": "Base de calcul du frais de ligne",
+    "status": "C • calcul",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Base de calcul du frais de ligne. Avec un pourcentage : BT-141 = BT-142 × BT-143 / 100."
+  },
+  {
+    "id": 143,
+    "label": "Pourcentage du frais de ligne",
+    "status": "C • calcul",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Pourcentage appliqué à BT-142 pour calculer le frais de ligne. Il ne représente pas le taux de TVA de la ligne."
+  },
+  {
+    "id": 144,
+    "label": "Motif du frais de ligne en texte",
+    "status": "C • 144 ou 145",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Motif du frais propre à la ligne, exprimé en texte. Exemple : « emballage spécial »."
+  },
+  {
+    "id": 145,
+    "label": "Code du motif du frais de ligne",
+    "status": "C • 144 ou 145",
+    "group": "BG-25 à BG-28",
+    "category": "Lignes périodes et ajustements",
+    "notes": "Code du motif du frais de ligne. Il décrit la raison du supplément, en cohérence avec BT-144."
+  },
+  {
+    "id": 146,
+    "label": "Prix net HT après remise sur prix",
+    "status": "G • BG-29",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Prix HT après remise sur le prix, pour la quantité de référence BT-149. Ce prix n’est donc pas toujours celui d’une seule unité."
+  },
+  {
+    "id": 147,
+    "label": "Montant de remise sur le prix",
+    "status": "F / C",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Montant de la réduction sur le prix brut : BT-146 = BT-148 − BT-147. Cette réduction est distincte d’une remise sur le montant de ligne."
+  },
+  {
+    "id": 148,
+    "label": "Prix brut HT avant remise sur prix",
+    "status": "F / C",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Prix HT avant la remise sur prix BT-147. « Brut » signifie ici avant remise, pas TVA comprise."
+  },
+  {
+    "id": 149,
+    "label": "Quantité de référence à laquelle le prix s’applique",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Nombre d’unités auquel le prix BT-146 s’applique. Exemple : pour 50 € les 100 pièces, renseigner 50 en BT-146 et 100 en BT-149."
+  },
+  {
+    "id": 150,
+    "label": "Code d’unité de la quantité de référence du prix",
+    "status": "F / C",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Code de l’unité de la quantité de référence du prix BT-149. Il doit être cohérent avec l’unité de la quantité facturée BT-130."
+  },
+  {
+    "id": 151,
+    "label": "Code de catégorie TVA de la ligne",
+    "status": "G • BG-30",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Catégorie de TVA du bien ou service de cette ligne. Elle détermine son traitement fiscal et son rattachement à une ventilation BT-118."
+  },
+  {
+    "id": 152,
+    "label": "Taux de TVA de la ligne",
+    "status": "C • catégorie",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Pourcentage de TVA applicable à la ligne, selon la catégorie BT-151. Il doit être cohérent avec le taux de la ventilation correspondante."
+  },
+  {
+    "id": 153,
+    "label": "Désignation courte du bien ou service",
+    "status": "G • BG-31",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Nom court du bien ou du service facturé. Il donne au client une désignation lisible de la ligne."
+  },
+  {
+    "id": 154,
+    "label": "Description détaillée",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Description détaillée du bien ou du service. Elle complète la désignation courte BT-153 avec ses spécifications ou son périmètre."
+  },
+  {
+    "id": 155,
+    "label": "Référence article du vendeur",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Code article attribué par le vendeur. Il permet de retrouver le bien ou service dans le catalogue du fournisseur."
+  },
+  {
+    "id": 156,
+    "label": "Référence article de l’acheteur",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Code article attribué par l’acheteur. Le même produit peut avoir une référence différente chez le vendeur en BT-155."
+  },
+  {
+    "id": 157,
+    "label": "Identifiant standardisé de l’article, par exemple GTIN",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Identifiant de l’article dans un système standardisé, par exemple un GTIN. Le schéma associé permet de savoir quel standard interpréter."
+  },
+  {
+    "id": 158,
+    "label": "Code de classification de l’article",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Code classant l’article dans une nomenclature. La liste utilisée, et éventuellement sa version, précisent le sens du code."
+  },
+  {
+    "id": 159,
+    "label": "Pays d’origine du bien",
+    "status": "F",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Code du pays d’origine du bien. Il ne désigne pas automatiquement le pays du vendeur ni celui de livraison."
+  },
+  {
+    "id": 160,
+    "label": "Nom d’une caractéristique, couleur ou taille notamment",
+    "status": "G • BG-32",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Nom d’une propriété de l’article, par exemple « couleur ». Chaque propriété est associée à sa valeur BT-161."
+  },
+  {
+    "id": 161,
+    "label": "Valeur de cette caractéristique",
+    "status": "G • BG-32",
+    "group": "BG-29 à BG-32",
+    "category": "Prix TVA et articles",
+    "notes": "Valeur de la propriété nommée en BT-160, par exemple « bleu » pour « couleur ». Plusieurs couples propriété/valeur peuvent décrire un article."
+  }
+]

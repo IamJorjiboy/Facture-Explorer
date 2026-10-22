@@ -1,7 +1,7 @@
 {
   "name": "facture-explorer",
   "productName": "Facture Explorer",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "private": true,
   "description": "Explorateur pédagogique de factures UBL, CII et Factur-X",
   "author": "Alan Georges",
