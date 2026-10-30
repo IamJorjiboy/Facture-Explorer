@@ -67,7 +67,7 @@
     }
   },
   "dependencies": {
-    "electron-updater": "6.8.9"
+    "electron-updater": "6.8.11"
   },
   "overrides": {
     "global-agent": "4.1.3"
