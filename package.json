@@ -18,7 +18,7 @@
   "devDependencies": {
     "electron": "44.8.0",
     "electron-builder": "26.15.3",
-    "pdfjs-dist": "6.4.299"
+    "pdfjs-dist": "6.5.438"
   },
   "build": {
     "appId": "fr.factureexplorer.desktop",
